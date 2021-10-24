@@ -1,5 +1,5 @@
 <h3>Account Verification</h3>
-<h1>Paw's Shelter </h1>
+<h1>CheapTalk </h1>
 <br>
 <h3 style="text-align:center;">
     Hi {{$user->name}}!

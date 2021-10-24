@@ -1,12 +1,10 @@
 @extends('base')
 
 @section('content')
-
-@include('navbar')
-
+<br><br>
 <div class="row">
-    <div class="col-md-4 offset-md-4 ">
-        <div class="card bg-transparent shadow text-secondary" style="background-color: rgba(0,0,0,0.5) !important;">
+    <div class="col-md-6 offset-md-3 ">
+    <div class="card shadow text-white" style="background-color: rgba(0,0,0,0.8) !important;">
             <div class="card-header ">
                 <h3 class="card-tittle text-center">
                     Create Account
@@ -20,9 +18,12 @@
                         <input type="name" name="name" id="name" class="form-control " required>
                     </div>
 
-                    <div class="mb-3">
-                        <label for="number">Your Phone Number</label>
-                        <input type="number" name="number" id="number" class="form-control " required>
+                    <div class="mb-3 text-black" id="input-container">
+                        <i class="fa fa-user icon"></i>
+                        <select name="gender" id="gender" class="form-select text-black input-field">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
                     </div>
 
                   <div class="mb-3 ">
@@ -57,4 +58,5 @@
         </div> 
 </div> 
 </div>
+<br><br>
 @stop 

@@ -1,12 +1,10 @@
 @extends('base')
 
 @section('content')
-
-@include('navbar')
-
+<br><br><br>
 <div class="row">
     <div class="col-md-4 offset-md-4 ">
-        <div class="card bg-transparent shadow text-secondary" style="background-color: rgba(0,0,0,0.5) !important;">
+        <div class="card shadow text-white" style="background-color: rgba(0,0,0,0.8) !important;">
             <div class="card-header ">
                 <h3 class="card-tittle text-center">
                     Login
